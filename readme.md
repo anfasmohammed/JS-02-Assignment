@@ -16,16 +16,22 @@ Ans. 1.Varibles are case sencitive (myName not equal to myname)
 
 2. Create a greeting alert (use => prompt, message, alert)
 
-Ans. let name=prompt("Your name:")
+Ans.
+```js
+    let name=prompt("Your name:")
 
     let message=prompt("Message to be printed")
 
     alert(`${message} ${name}`)
+    
+```
 
 3. Write some code so that the values of the below variables switch around .
 Let a = 5, let b = 8. Switch the value so that a holds the value 8 and the variable b holds the value 5.
 
-Ans. let a = 5
+Ans.
+```js
+ let a = 5
 
      let b = 8
 
@@ -38,5 +44,7 @@ Ans. let a = 5
      console.log(a)
 
      console.log(b)
+     
+```
 
 4. ![ScreenShot](./SS-JS%20assinment%2002.png)
